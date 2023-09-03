@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.8.0",
+    "react-bootstrap-sidebar-menu": "^2.0.3",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.15.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

@@ -1,0 +1,31 @@
+{
+    "sidebarLinkDropdowns": [
+        {
+            "parentName": "NLP",
+            "childLinks": [
+                "SEOBot",
+                "MerchantBot"
+            ]
+        },
+        {
+            "parentName": "Forecast",
+            "childLinks": [
+                "Budget Projections",
+                "Feed Test Projections"
+            ]
+        },
+        {
+            "parentName": "Modeling",
+            "childLinks": [
+                "Channel Analysis"
+            ]
+        },
+        {
+            "parentName": "Cluster",
+            "childLinks": [
+                "Search Term Grouping",
+                "Feed Categories"
+            ]
+        }
+    ]
+}
