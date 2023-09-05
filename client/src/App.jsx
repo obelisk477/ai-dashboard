@@ -2,7 +2,7 @@ import './App.css'
 import { Container, Row, Col } from "react-bootstrap";
 import Sidebar from './components/Sidebar.jsx'
 import DashOverview from './components/DashOverview';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import MerchantBot from './components/MerchantBot';
 import SEOBot from './components/SEOBot';
 import BudgetProj from './components/BudgetProj';
@@ -12,6 +12,12 @@ import SearchTerm from './components/SearchTerm';
 import FeedCat from './components/FeedCat';
 
 function App() {
+
+  useEffect(() => {
+    fetch('http://localhost:3001/api/merchantChat')
+      .then(response => response.json())
+      .then(data => console.log(data));
+  }, []);
 
   const [currentPage, setCurrentPage] = useState('Overview');
 
