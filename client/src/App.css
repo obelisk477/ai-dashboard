@@ -43,6 +43,7 @@ h3 {
   margin: 5vh auto 10vh;
   height: 11vh;
   width: 11h;
+  cursor: pointer;
 }
 
 #dash {
@@ -70,12 +71,61 @@ h3 {
 .roi-orange {
   color: #EA9426;
 }
+
 .roi-green {
   color: #088b80;
 }
+
 .roi-blue {
   color: #004366;
 }
+
 .roi-grey {
   color: #6F6F6F
+}
+
+.parent-link {
+  font-size: 1.25rem;
+}
+
+.child-link {
+  margin-left: 15px
+}
+
+.holo-card {
+  background-color: rgba(0, 66, 102, 0.203);
+  padding: 10px;
+}
+
+.full-card {
+  height: 60vh
+}
+
+.half-card {
+  height: 28vh;
+  margin-bottom: 4vh
+}
+
+.three-quarter-card {
+  height: 38vh;
+  margin-bottom: 4vh;
+}
+
+.quarter-card {
+  height: 18vh;
+  margin-bottom: 4vh;
+}
+
+#floatingTextarea2 {
+  margin: auto;
+  color: white;
+}
+
+#floatingTextarea2::placeholder {
+  color: rgba(255, 255, 255, 0.521);
+}
+#floatingTextarea2:focus {
+  /* outline: none !important;
+  border:1px solid red;
+  box-shadow: 0 0 10px #719ECE; */
 }

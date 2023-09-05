@@ -1,0 +1,57 @@
+{
+    "sidebarLinkDropdowns": [
+        {
+            "parentName": "NLP",
+            "childLinks": [
+                "SEOBot",
+                "MerchantBot"
+            ]
+        },
+        {
+            "parentName": "Forecast",
+            "childLinks": [
+                "Budget Projections",
+                "Feed Test Projections"
+            ]
+        },
+        {
+            "parentName": "Modeling",
+            "childLinks": [
+                "Channel Analysis"
+            ]
+        },
+        {
+            "parentName": "Cluster",
+            "childLinks": [
+                "Search Term Grouping",
+                "Feed Categories"
+            ]
+        }
+    ],
+    "overviewData": [
+        {
+           "title": "NLP / Chatbots",
+           "faClasses": "roi-blue fa-regular fa-file-lines",
+           "bodyText": "Work with custom chatbots & language models trained on ROI best practices, platform documentation, and knowledge from seasoned experts"
+        },
+        {
+           "title": "Forecasting",
+           "faClasses": "roi-blue fa-solid fa-chart-line",
+           "bodyText": "Use machine learning to predict end-of-month revenues based on client historical data, forecast ROAS trends, and help you hit client budgets"
+        },
+        {
+           "title": "Clustering",
+           "faClasses": "roi-blue fa-solid fa-diagram-project",
+           "bodyText": "With applications in paid search keywords, SEO research, and product feed categorization, machine learning clustering algorithms can help you dynamically group textual data"
+        },
+        {
+           "title": "Modeling",
+           "faClasses": "roi-blue fa-solid fa-magnifying-glass-chart",
+           "bodyText": "Use the power of artificial intelligence to help efficiently allocate your clients' marketing budget. Also, insights provided by models can help show the importance of upper funnel spend and channels"
+        }
+    ]
+}
+
+
+
+
