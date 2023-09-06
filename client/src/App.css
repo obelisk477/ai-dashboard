@@ -95,10 +95,12 @@ h3 {
 .holo-card {
   background-color: rgba(0, 66, 102, 0.203);
   padding: 10px;
+
 }
 
 .full-card {
-  height: 60vh
+  height: 60vh;
+  align-items: center;
 }
 
 .half-card {
@@ -116,16 +118,49 @@ h3 {
   margin-bottom: 4vh;
 }
 
+.form-floating {
+  width: 100%;
+}
+
 #floatingTextarea2 {
   margin: auto;
   color: white;
 }
 
-#floatingTextarea2::placeholder {
+#floatingTextarea2::placeholder, #floatingTextarea3::placeholder {
   color: rgba(255, 255, 255, 0.521);
 }
+
+#floatingTextarea3, #floatingTextarea4 {
+  color: white;
+  margin-top: 50px;
+}
+
 #floatingTextarea2:focus {
   /* outline: none !important;
   border:1px solid red;
   box-shadow: 0 0 10px #719ECE; */
+}
+
+#chat-response {
+  font-size: 1rem;
+  text-align: center;
+  overflow-y: auto;
+}
+
+#ask-button {
+  width: 40%;
+  background-color: #EA9426;
+}
+
+#response-type-form{
+  margin-top: 20px;
+}
+
+input.radio {
+  cursor: pointer;
+}
+
+#source-area {
+  overflow-y: auto;
 }

@@ -13,13 +13,8 @@ import FeedCat from './components/FeedCat';
 
 function App() {
 
-  useEffect(() => {
-    fetch('http://localhost:3001/api/merchantChat')
-      .then(response => response.json())
-      .then(data => console.log(data));
-  }, []);
 
-  const [currentPage, setCurrentPage] = useState('Overview');
+  const [currentPage, setCurrentPage] = useState('ROI x AI');
 
   const renderPage = () => {
     if (currentPage === 'MerchantBot') {
@@ -55,7 +50,7 @@ function App() {
           <Sidebar currentPage={currentPage} handlePageChange={handlePageChange}/>
           <Col xs={10} id='dash'>
             <Row id='dash-header'>
-              <h1>ROI x AI</h1>
+              <h1>{currentPage}</h1>
             </Row>
             {renderPage()}
           </Col>

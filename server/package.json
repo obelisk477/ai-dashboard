@@ -13,7 +13,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "faiss-node": "^0.3.0",
+    "langchain": "^0.0.143"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

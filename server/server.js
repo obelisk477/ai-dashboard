@@ -1,6 +1,8 @@
 const express = require('express')
 const routes = require('./routes')
 const cors = require('cors')
+const dotenv = require('dotenv')
+dotenv.config()
 
 // Sets port to .env variable if local connection not available
 const PORT = process.env.PORT || 3001

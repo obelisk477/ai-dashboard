@@ -10,7 +10,7 @@ const Sidebar = ({currentPage, handlePageChange}) => {
     return (
         <Col xs={2} id='sidebar'>
             <Nav defaultActiveKey="/home" className="flex-column">
-            <Image src='Picture1.png' id='roi-logo' onClick={() => handlePageChange('overview')}/>
+            <Image src='Picture1.png' id='roi-logo' onClick={() => handlePageChange('ROI x AI')}/>
             {sidebarLinkDropdowns.map(({parentName, childLinks}) => (
                 <DropdownNav 
                     handleClick={setActiveDropdown} 
