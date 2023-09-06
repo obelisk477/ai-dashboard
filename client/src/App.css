@@ -164,3 +164,19 @@ input.radio {
 #source-area {
   overflow-y: auto;
 }
+
+/*  End merchant, begin search term*/
+
+#search-term-instructions {
+  font-size: 1rem;
+  overflow: auto;
+}
+
+#upload-card {
+  cursor: pointer;
+  display: flex;
+  color: #004366;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+}
